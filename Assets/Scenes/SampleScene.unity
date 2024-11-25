@@ -626,6 +626,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8a44325a1a6e014a936ffb39133bd74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_DoNotDestroyOnLoad: 0
   RaceNumberText: {fileID: 158134466}
   RaceTimeHoursText: {fileID: 327991980}
   RaceTimeMinutesText: {fileID: 505206906}
@@ -1399,11 +1400,11 @@ RectTransform:
   - {fileID: 287183049}
   m_Father: {fileID: 1462086194}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 885.0084, y: 165.9391}
-  m_Pivot: {x: 0.5, y: 1}
+  m_SizeDelta: {x: 885.0084, y: 165.93909}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &789653450
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -82,6 +82,9 @@ public class RaceManager : Singleton<RaceManager>
         raceStarted = false;
         captureTimer = 0f;
 
+        UI_TimerAndRace.Instance.UpdateRaceNumberText();
+        UI_TimerAndRace.Instance.UpdateRaceTimerText();
+
         if (spawnedGhostCar != null)
         {
             Destroy(spawnedGhostCar.gameObject);

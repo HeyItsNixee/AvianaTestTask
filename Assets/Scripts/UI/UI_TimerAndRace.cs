@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UI_TimerAndRace : MonoBehaviour
+public class UI_TimerAndRace : Singleton<UI_TimerAndRace>
 {
     [SerializeField] private Text RaceNumberText;
     [Space]
